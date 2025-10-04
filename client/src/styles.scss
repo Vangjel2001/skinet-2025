@@ -17,8 +17,14 @@
   ));
 }
 
-.match-input-height {
-  height: var(--mat-form-field-container-height) !important;
+button.match-input-height {
+  height: var(--mat-form-field-container-height, 56px) !important;
+  display: inline-flex;
+  align-items: center;
+}
+
+.mdc-notched-outline__notch {
+  border-right-style: none !important
 }
 
 html {
